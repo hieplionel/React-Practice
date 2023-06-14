@@ -1,0 +1,28 @@
+.group-btns {
+    display: flex;
+    gap: 10px;
+
+    i {
+        padding: 0 2px;
+    }
+}
+
+.sort-header {
+    display: flex;
+    justify-content: space-between;
+
+    i {
+        cursor: pointer;
+        padding: 0 2px;
+    }
+}
+
+.customize-table {
+    width: inherit;
+    overflow-x: auto;
+}
+
+.pagination {
+    display: flex;
+    justify-content:center 
+}
